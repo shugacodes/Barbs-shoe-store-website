@@ -1,0 +1,236 @@
+.beTheFirst {
+  position: relative;
+  line-height: 24px;
+}
+.enterYourEmail,
+.iconSend {
+  height: 24px;
+  position: relative;
+}
+.enterYourEmail {
+  width: 130px;
+  border: 0;
+  outline: 0;
+  font-family: var(--title-16px-regular);
+  font-size: var(--title-16px-regular-size);
+  background-color: transparent;
+  line-height: 24px;
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.iconSend {
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.brand,
+.newsletter,
+.sendMail {
+  display: flex;
+  align-items: flex-start;
+}
+.sendMail {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1.5px solid var(--color-styles-white-color);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-sm);
+  gap: var(--gap-xl);
+}
+.brand,
+.newsletter {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.newsletter {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--title-16px-regular-size);
+  font-family: var(--title-16px-regular);
+}
+.brand {
+  width: 317px;
+  gap: var(--gap-5xl);
+  font-size: var(--heading-24px-bold-size);
+  font-family: var(--heading-24px-bold);
+}
+.support {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 81px;
+}
+.hellobarbscom {
+  position: relative;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.hellobarbscomParent,
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hellobarbscomParent {
+  gap: var(--gap-base);
+  font-size: var(--title-16px-regular-size);
+}
+.links {
+  gap: var(--gap-5xl);
+}
+.account,
+.cart,
+.shop {
+  position: relative;
+  display: inline-block;
+}
+.account {
+  line-height: 28px;
+  font-weight: 500;
+  min-width: 85px;
+}
+.cart,
+.shop {
+  line-height: 24px;
+  min-width: 35px;
+}
+.shop {
+  min-width: 41px;
+}
+.footerLinks {
+  width: 468.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.socials1 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 72px;
+}
+.socialIconsLogoFacebook {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footerContent,
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.footerContent {
+  width: 1148px;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-126xl-3);
+  max-width: 100%;
+}
+.iconCopyright,
+.underlineIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.underlineIcon {
+  width: 1174px;
+  max-height: 100%;
+  max-width: 103%;
+}
+.iconCopyright {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+}
+.info {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.copyright,
+.footer,
+.info,
+.separator {
+  display: flex;
+  align-items: center;
+}
+.copyright {
+  flex-direction: row;
+  justify-content: flex-start;
+  opacity: 0.6;
+}
+.footer,
+.separator {
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.separator {
+  width: 1148px;
+  justify-content: center;
+  padding: var(--padding-sm) 0;
+  gap: var(--gap-5xs);
+  opacity: 0.4;
+  font-size: var(--title-16px-regular-size);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-styles-primary-color);
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-xl);
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--title-20px-medium-size);
+  color: var(--color-styles-white-color);
+  font-family: var(--title-16px-regular);
+}
+@media screen and (max-width: 1275px) {
+  .footerContent {
+    flex-wrap: wrap;
+    gap: var(--gap-54xl);
+  }
+  .footer {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .footerContent {
+    gap: var(--gap-17xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .account,
+  .support {
+    font-size: var(--title-16px-regular-size);
+    line-height: 22px;
+  }
+  .footerLinks {
+    flex-wrap: wrap;
+  }
+  .socials1 {
+    font-size: var(--title-16px-regular-size);
+    line-height: 22px;
+  }
+  .footerContent {
+    gap: var(--gap-lg);
+  }
+  .footer {
+    padding-top: var(--padding-9xl);
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}

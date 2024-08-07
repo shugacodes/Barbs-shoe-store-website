@@ -1,0 +1,31 @@
+.exclusive {
+  margin: 0;
+  width: 214px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.logo {
+  width: 118px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-24px-bold-size);
+  color: var(--color-styles-white-color);
+  font-family: var(--heading-24px-bold);
+}
+@media screen and (max-width: 450px) {
+  .exclusive {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+}
